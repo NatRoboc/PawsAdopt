@@ -3,6 +3,7 @@ import Login from "./Login";
 import Register from "./Register";
 import Profile from "./Profile";
 import foto_perfil from "./assets/msn.png";
+import foto_mapa from "./assets/mapa.png";
 
 const menuItems=[
     {label:"Amigos"},
@@ -129,6 +130,14 @@ function SidebarDerecha(){
                     }
                 </ul>
             </div>
+
+            <div>
+                <p className="flex justify-center py-2">Avistamientos en tu zona</p>
+                <div>
+                    <img src={foto_mapa} className="w-full h-full object-cover cursor-pointer"></img>
+                </div> 
+            </div>
+            
         </nav>
     );
 }
