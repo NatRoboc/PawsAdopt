@@ -1,7 +1,7 @@
 import React from "react";
 import fotoP from "./assets/fotoPerfil.webp";
 import { PiNotePencilBold } from "react-icons/pi";
-import { NavbarSuperior, Footer} from './Funciones_Interfaz.jsx';
+import { NavbarSuperior, Footer } from "./Funciones_Interfaz.jsx";
 
 function Profile() {
   return (
@@ -14,7 +14,7 @@ function Profile() {
         <div className="flex min-h-screen bg-gray-100">
           {/* Sección izquierda */}
           <div className="w-1/3 flex flex-col items-center justify-center p-4 border-r border-gray-300">
-            <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-transparent">
+            <div className="w-60 h-60 rounded-full overflow-hidden border-2 border-transparent">
               <img
                 src={fotoP}
                 alt="Foto de perfil"
@@ -51,7 +51,9 @@ function Profile() {
                 />
               </div>
               <div className="mb-4">
-                <label className="block font-medium mb-2">Nro de teléfono:</label>
+                <label className="block font-medium mb-2">
+                  Nro de teléfono:
+                </label>
                 <input
                   type="text"
                   placeholder="Ingrese su número"
@@ -85,7 +87,7 @@ function Profile() {
       </main>
 
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </div>
   );
