@@ -4,6 +4,7 @@ import Inicio from './Inicio.jsx'
 import Login from './Login.jsx'
 import Register from './Register.jsx'
 import Profile from './Profile.jsx'
+import Avistamientos from './Avistamientos.jsx'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />}/>
         <Route path="/profile" element={<Profile />} />
+        <Route path="/mapa_avistamientos" element={<Avistamientos />} />
 
       </Routes>
     </Router>

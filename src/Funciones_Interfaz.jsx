@@ -133,8 +133,11 @@ function SidebarDerecha(){
 
             <div>
                 <p className="flex justify-center py-2">Avistamientos en tu zona</p>
-                <div>
-                    <img src={foto_mapa} className="w-full h-full object-cover cursor-pointer"></img>
+                <div className="w-full h-full object-cover cursor-pointer">
+                    <Link to="/mapa_avistamientos" className="">
+                        <img src={foto_mapa}></img>
+                    </Link>
+                    
                 </div> 
             </div>
             
