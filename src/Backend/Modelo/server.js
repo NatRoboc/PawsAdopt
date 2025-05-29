@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import connectToServer from './connect.js';
-import usuariosRoutes from './usuariosRoutes.js';
+import route from './usuariosRoutes.js';
 
 const app = express();
 const PORT = 3000;
@@ -9,7 +9,8 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 
-app.use('/api/usuarios', usuariosRoutes);
+/*Rutas */
+app.use('/api', route);
 
 async function startServer() {
   await connectToServer();

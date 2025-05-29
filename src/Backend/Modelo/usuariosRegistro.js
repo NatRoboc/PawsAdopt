@@ -1,14 +1,13 @@
 import mongoose from 'mongoose';
 
-const usuarioSchema = new mongoose.Schema({
+const registroSchema = new mongoose.Schema({
   nombre: { type: String, required: true },
-  email: { type: String, required: true, unique: true },
-  password: { type: String, required: true },
+  correo: { type: String, required: true, unique: true },
+  contrasena: { type: String, required: true },
   telefono: String,
   rutEmpresa: String,
-  enlaceReb: String,
-}, { timestamps: true });
+  enlaceWeb: String,
+}, { collection: 'registro' });
 
-const Usuario = mongoose.model('Usuario', usuarioSchema);
 
-export default Usuario;
+export default mongoose.model('Registro', registroSchema);
