@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { NavbarSuperior, Footer} from './Funciones_Interfaz.jsx';
+import { NavbarSuperior, Footer } from "../controller/Funciones_Interfaz.jsx";
 
 function Login() {
   return (
     <div>
       <header>
-        <NavbarSuperior/>
+        <NavbarSuperior />
       </header>
 
       <main className="pt-[4rem] md:pt-[5rem]">
@@ -46,10 +46,9 @@ function Login() {
       </main>
 
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </div>
-
   );
 }
 

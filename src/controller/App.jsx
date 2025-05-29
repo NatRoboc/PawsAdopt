@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Inicio from "./Inicio.jsx";
-import Login from "./Login.jsx";
-import Register from "./Register.jsx";
-import Profile from "./Profile.jsx";
-import Avistamientos from "./Avistamientos.jsx";
-import NewPet from "./NewPet.jsx";
-import PetProfile from "./PetProfile.jsx";
+import Inicio from "../view/Inicio.jsx";
+import Login from "../view/Login.jsx";
+import Register from "../view/Register.jsx";
+import Profile from "../view/Profile.jsx";
+import Avistamientos from "../view/Avistamientos.jsx";
+import NewPet from "../view/NewPet.jsx";
+import PetProfile from "../view/PetProfile.jsx";
 
 function App() {
   return (

@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Login from "./Login";
-import Register from "./Register";
-import Profile from "./Profile";
-import foto_perfil from "./assets/fotoPerfil.webp";
-import foto_mapa from "./assets/mapa.png";
-import TarjetaMascota from "./TarjetaMascota";
+import Login from "../view/Login";
+import Register from "../view/Register";
+import Profile from "../view/Profile";
+import foto_perfil from "../assets/fotoPerfil.webp";
+import foto_mapa from "../assets/mapa.png";
+import TarjetaMascota from "../view/TarjetaMascota";
 
 const menuItems = [
   { label: "Amigos" },

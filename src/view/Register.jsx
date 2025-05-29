@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavbarSuperior, Footer} from './Funciones_Interfaz.jsx';
+import { NavbarSuperior, Footer } from "../controller/Funciones_Interfaz.jsx";
 
 function Register() {
   const [isFoundation, setIsFoundation] = useState(false);
@@ -11,7 +11,7 @@ function Register() {
   return (
     <div>
       <header>
-        <NavbarSuperior/>
+        <NavbarSuperior />
       </header>
 
       <main className="pt-[4rem] md:pt-[5rem]">
@@ -100,11 +100,9 @@ function Register() {
       </main>
 
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </div>
-
-
   );
 }
 

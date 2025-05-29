@@ -1,5 +1,5 @@
 import React from "react";
-import { NavbarSuperior, Footer } from "./Funciones_Interfaz.jsx";
+import { NavbarSuperior, Footer } from "../controller/Funciones_Interfaz.jsx";
 
 function PetProfile() {
   return (

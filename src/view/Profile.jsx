@@ -1,7 +1,7 @@
 import React from "react";
-import fotoP from "./assets/fotoPerfil.webp";
+import fotoP from "../assets/fotoPerfil.webp";
 import { PiNotePencilBold } from "react-icons/pi";
-import { NavbarSuperior, Footer } from "./Funciones_Interfaz.jsx";
+import { NavbarSuperior, Footer } from "../controller/Funciones_Interfaz.jsx";
 
 function Profile() {
   return (
@@ -59,21 +59,6 @@ function Profile() {
                   placeholder="Ingrese su número"
                   className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-pink-300 bg-white"
                 />
-              </div>
-              <div className="mb-4">
-                <label className="block font-medium mb-2">Edad:</label>
-                <input
-                  type="number"
-                  placeholder="Ingrese su edad"
-                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-pink-300 bg-white"
-                />
-              </div>
-              <div className="mb-4">
-                <label className="block font-medium mb-2">Sexo:</label>
-                <select className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-pink-300 bg-white">
-                  <option>Femenino</option>
-                  <option>Masculino</option>
-                </select>
               </div>
               <button
                 type="submit"
